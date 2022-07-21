@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="website_style.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+function scrollto(div)
+{
+ $('html,body').animate(
+ {
+  scrollTop: $("#"+div).offset().top
+ },'slow');
+}
+</script>
+</head>
+<body>
+
+<div id="header">
+ <li id="site_name">img</li>
+ <li onclick="scrollto('home');">HOME</li>
+ <li onclick="scrollto('about');">ABOUT US</li>
+ <li onclick="scrollto('contact');">SERVICE </li>
+ <li onclick="scrollto('contact');">PRODUCT</li>
+ <li onclick="scrollto('contact');">CONTACT</li>
+ <li onclick="scrollto('contact');">BLOG</li>
+</div>
+
+<div id="home">
+ <h1>LETEST WORKS </h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
+</div>
+<div id="header">
+   
+    <li onclick="scrollto('home');">ALL</li>
+    <li onclick="scrollto('about');">BRANDING GOALS</li>
+    <li onclick="scrollto('contact');">PHOTOGRAPHY </li>
+    <li onclick="scrollto('contact');">TRUE PERFECTION </li>
+    <li onclick="scrollto('contact');">WEB DESIGN</li>
+   </div>
+
+<div id="about">
+ <img src="ast/1.jpg"/>
+ <!-- <img src="ast/.jpg"/> -->
+
+ <!-- phaot -->
+</div>
+
+
+<div id="contact">
+<h1>Work experience</h1>
+
+</div>
+
+</body>
+</html>
